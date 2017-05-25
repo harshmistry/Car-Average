@@ -10,10 +10,18 @@ import {MdTooltipModule} from '@angular/material';
 
 import 'hammerjs';
 import { AppComponent } from './app.component';
+import { LoginComponent } from './login/login.component';
+import { NewuserComponent } from './newuser/newuser.component';
+import { UserdetailComponent } from './userdetail/userdetail.component';
+import { CardetailComponent } from './cardetail/cardetail.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LoginComponent,
+    NewuserComponent,
+    UserdetailComponent,
+    CardetailComponent
   ],
   imports: [
     BrowserModule,
