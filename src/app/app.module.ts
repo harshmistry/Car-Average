@@ -6,6 +6,7 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MdCardModule} from '@angular/material';
 import {MdButtonModule} from '@angular/material';
 import {MdInputModule} from '@angular/material';
+import {MdTooltipModule} from '@angular/material';
 
 import 'hammerjs';
 import { AppComponent } from './app.component';
@@ -21,7 +22,8 @@ import { AppComponent } from './app.component';
     BrowserAnimationsModule,
     MdCardModule,
     MdButtonModule,
-    MdInputModule
+    MdInputModule,
+    MdTooltipModule
   ],
   providers: [],
   bootstrap: [AppComponent]
